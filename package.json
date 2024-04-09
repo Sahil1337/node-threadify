@@ -1,0 +1,20 @@
+{
+  "name": "node-threadify",
+  "version": "1.1.0",
+  "description": "A package to use threads efficiently in nodejs.",
+  "main": "index.js",
+  "license": "GPL-3.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sahil1337/node-threadify.git"
+  },
+  "keywords": [
+    "threading",
+    "nodejs-threading",
+    "node-threadify",
+    "javascript",
+    "threads"
+  ],
+  "author": "SahiL1337",
+  "type": "module"
+}
