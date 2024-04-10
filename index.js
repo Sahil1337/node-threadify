@@ -150,4 +150,4 @@ class Threading {
   }
 }
 
-export { Threading };
+module.exports = { Threading };
