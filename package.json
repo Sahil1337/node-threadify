@@ -1,8 +1,9 @@
 {
   "name": "node-threadify",
-  "version": "1.1.1",
+  "module": "index.ts",
+  "version": "1.1.2-beta",
   "description": "A package to use threads efficiently in nodejs.",
-  "main": "index.js",
+  "type": "module",
   "license": "GPL-3.0",
   "repository": {
     "type": "git",
@@ -15,6 +16,10 @@
     "javascript",
     "threads"
   ],
-  "author": "SahiL1337",
-  "type": "module"
+  "devDependencies": {
+    "@types/bun": "^1.0.12"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
 }
